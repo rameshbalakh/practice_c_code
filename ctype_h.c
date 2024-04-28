@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
+/*
+* isalnum function is check the variable alphabet or numeric
+*/
 int main(){
     int a = 'd';
     int b = 65;
