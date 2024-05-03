@@ -14,6 +14,7 @@ int main(){
     int var3 = '\t';
     int var4 = ' ';
     
+    // check if printable or not
     if(isprint(var1)){
         printf("%c is printable\n",var1);
     } else {
