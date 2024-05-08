@@ -13,6 +13,7 @@ errno-value	    Error
     11          Try again
     12          Out of memory
     13          Permission denied
+    etc.......  etc........
 *OUTPUT 
 * output depending on error in this code
 * errno depending on the error
