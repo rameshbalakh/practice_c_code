@@ -21,6 +21,8 @@ int main(){
     fprintf(fptr,"student no 3: %s\n",student_3);
     fprintf(fptr,"student no 4: %s\n",student_4);
 
+    // you should close the file using pointer
+    fclose(fptr);
     // small conformation to written
     printf("file written successfully");
 }
