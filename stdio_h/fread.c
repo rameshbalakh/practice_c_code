@@ -8,7 +8,7 @@ int main ()
     // FILE object
     FILE * file;
     // opening a file in read mode
-    file = fopen("sample.txt", "r");
+    file = fopen("fwritefile.bin", "r");
     
     int count = fread(&buffer, sizeof(char), 600, file);
     
