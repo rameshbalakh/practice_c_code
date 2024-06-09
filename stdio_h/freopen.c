@@ -5,7 +5,7 @@ int main(){
 
     printf("This text is redirecting to stdout\n");
 
-    ptr = fopen("freopen.txt","w+");
+    ptr = freopen("freopen.txt","w+", stdout);
 
     printf("This is sample text for freopen",ptr);
 
